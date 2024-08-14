@@ -1,0 +1,50 @@
+---
+title: ""
+---
+
+```{r}
+#| include: false
+
+library(fontawesome)
+```
+
+```{r}
+#| echo: false
+#| out-width: 70%
+#| fig-align: center
+
+knitr::include_graphics("calpoly-datafest-logo.PNG")
+```
+
+# `r fa("chart-line")` What is DataFest?
+
+DataFest is a national event organized by the American Statistical Association as a celebration of data in which teams of undergraduates work around the clock to find and share meaning in a large, rich, and complex data set. The ASA provides a data set to participating institutions in which local DataFests are held across the country during March and April each year.
+
+`r fa("users")` **Intense Collaboration:** Teams of 2-5 undergraduates engage in a 48-hour data analysis marathon, working to decipher a complex data set and craft insightful solutions.
+
+`r fa("lightbulb")` **Innovation and Camaraderie:** Participants are fueled by a spirit of innovation and teamwork, pushing the boundaries of data exploration while fostering a supportive and collaborative environment.
+
+`r fa("trophy")` **Showcasing Discoveries:** The event culminates in 5-minute presentations where teams share their findings and insights. Awards are given for the Best in Show, Best Visualization, and Best Use of Outside Data.
+
+Learn more at <https://ww2.amstat.org/education/datafest/>.
+
+# `r fa("calendar")` Important Dates \@ Cal Poly
+
+| Item                          | Date                |
+|-------------------------------|---------------------|
+| Student Interest Survey       | Due March xx        |
+| DataFest Social Mixer         | March xx at x:xx in xxx |
+| Official Student Team Sign-up | Due March xx        |
+| DataFest 2025 Weekend!        | April xx - April xx |
+
+# `r fa("envelope")` Contact
+
+**Dr. Emily Robinson**, Assistant Professor of Statistics
+
+`r fa("envelope")` erobin17\@calpoly.edu
+
+<br>
+
+**Department of Statistics, Cal Poly - SLO**
+
+`r fa("envelope")` statisticsdepartment\@calpoly.edu

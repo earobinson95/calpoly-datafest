@@ -1,0 +1,58 @@
+---
+title: ""
+---
+
+```{r}
+#| include: false
+
+library(fontawesome)
+```
+
+```{r}
+#| echo: false
+#| out-width: 70%
+#| fig-align: center
+
+knitr::include_graphics("calpoly-datafest-logo.PNG")
+```
+
+### `r fa("question")` How big are teams?
+
+While teams can be between 2-5 individuals, teams with 4-5 individuals will be given priority over teams with fewer. If you have a team of 3 and there is an individual without a team, they may be added to your team at last minute.
+
+### `r fa("question")` What if I don't have a team?
+
+We will send out an interest form before official team sign up and do our best to connect you with other students who are looking to form a team. Additionally, we will hold a DataFest Social Mixer where you can come learn more about DataFest and chat with other potential teammates.
+
+### `r fa("question")` When will we find out about the data?
+
+The data and context is released during DataFest Kickoff on Friday at 5pm of the event weekend. It is kept secret until then!
+
+### `r fa("question")` Can we work overnight?
+
+The official work space will close at 10 p.m., but you are welcome to find a space in the campus union or library to work overnight. The official work space will open again the next morning at 8 a.m. All work MUST be completed on Cal Poly premises.
+
+### `r fa("question")` What is the final deliverable?
+
+Each team will have 5 minutes to present their findings to a panel of three judges. 
+
+Each team will be allowed at most three slides. **Three.** So at some point on Sunday,
+you might want to set aside time to think about what you want the judges to know. The 5
+minute time limit will be strictly enforced. All team members must be present for the
+presentation, but not all team members need to actually speak (given the time limitation).
+
+Awards will be given in three categories:
+
++ Best in Show: This is the main prize.
++ Best Visualization
++ Best Use of Outside Data
+
+Winners will receive mini trophies with the event and award name as well as a free ASA
+membership.
+
+While there is a judging and award portion of this event, we encourage a fun and friendly environment for all to learn!
+
+### `r fa("question")` Are you accepting teams from other institutions?
+
+We do not currently have a mechanism in place to host other teams at Cal Poly for DataFest. Our pipe dream is in the next few years to expand to a Central Coast DataFest. If your institution is interested in working with us to make this happen, please contact us at statisticsdepartment@calpoly.edu.
+

@@ -1,0 +1,67 @@
+---
+title: ""
+---
+
+```{r}
+#| include: false
+
+library(fontawesome)
+```
+
+```{r}
+#| echo: false
+#| out-width: 70%
+#| fig-align: center
+
+knitr::include_graphics("calpoly-datafest-logo.PNG")
+```
+
+## 2024
+
+`r fa("users")` 10 Teams
+
+`r fa("graduation-cap")` 3 Colleges at Cal Poly
+
+`r fa("table")` 1 Data Set
+
+A total of 39 undergraduate students participated in a weekend of visualizing, summarizing, and analyzing data about an online statistics textbook. Students participated from across three colleges including: mostly Statistics & Data Science major in the Bailey College of Science and Technology, a handful of Computer Science majors in the College of Engineering, and a couple of students completing the Quantitative Concentration from the Orfalea College of Business.
+
+```{r}
+#| layout-ncol: 3
+#| echo: false
+#| out-width: 100%
+#| fig-align: center
+#| fig-cap: 
+#|   - "Best in Show: (left) Cameron Stivers, Anagha Sikha, Kirina Sirohi, and Rachel Roggenkemper"
+#|   - "Best Visualization: (left) Alea Seifert, Jett Palmer, Kaatja Matthews-vanKoetsveld, and Alie Hall"
+#|   - "Best Use of Outside Data: (left) Charlie Ray, Seth Johnson, Billie Block, and Deven Singh"
+
+knitr::include_graphics("images/2024/best-in-show.jpg")
+knitr::include_graphics("images/2024/best-visualization.jpg")
+knitr::include_graphics("images/2024/best-use-of-outside-data.jpg")
+```
+
+Read more about our first in-person DataFest at [First In-Person DataFest Held at Cal Poly: Tackling Complex Problems in Teams](https://statistics.calpoly.edu/news/first-person-datafest-held) by Nick Wilson.
+
+```{r}
+#| echo: false
+#| out-width: 100%
+#| fig-align: center
+
+knitr::include_graphics("images/2024/datafest-12.jpg")
+```
+
+```{r}
+#| layout-ncol: 5
+#| echo: false
+#| out-width: 100%
+#| fig-align: center
+
+knitr::include_graphics("images/2024/datafest-15.jpg")
+knitr::include_graphics("images/2024/datafest-16.jpg")
+knitr::include_graphics("images/2024/datafest-18.jpg")
+knitr::include_graphics("images/2024/datafest-21.jpg")
+knitr::include_graphics("images/2024/datafest-27.jpg")
+```
+
+## 2020

@@ -1,0 +1,14 @@
+---
+title: ""
+---
+
+```{r}
+#| echo: false
+#| out-width: 70%
+#| fig-align: center
+
+knitr::include_graphics("calpoly-datafest-logo.PNG")
+```
+
+### Getting Started with Software
+

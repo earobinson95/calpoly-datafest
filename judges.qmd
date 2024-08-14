@@ -1,0 +1,17 @@
+---
+title: ""
+---
+
+```{r}
+#| echo: false
+#| out-width: 70%
+#| fig-align: center
+
+knitr::include_graphics("calpoly-datafest-logo.PNG")
+```
+
+Are you or someone you know interested in serving as a mentor or judge for ASA DataFest 2025 at Cal Poly? Fill out the following form to be contacted: xxx.
+
+# What is a DataFest Mentor?
+
+# Serving as a DataFest Judge

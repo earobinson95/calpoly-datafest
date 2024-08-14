@@ -1,0 +1,26 @@
+project:
+  type: website
+
+website:
+  title: "ASA DataFest @ Cal Poly - SLO"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: faq.qmd
+        text: FAQ
+      - href: prep.qmd
+        text: Software
+      - href: judges.qmd
+        text: Mentors/Judges
+      - href: past-events.qmd
+        text: Past Events
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
