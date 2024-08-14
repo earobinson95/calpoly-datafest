@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "ASA DataFest @ Cal Poly - SLO"
@@ -21,6 +22,5 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
 
 
