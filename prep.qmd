@@ -12,3 +12,37 @@ knitr::include_graphics("calpoly-datafest-logo.PNG")
 
 ### Getting Started with Software
 
+You are welcome to use any coding language you like at DataFest. Below are tips for getting started with a couple we recommend.
+
+#### R/RStudio
+
+Download and run the R installer for your operating system from CRAN:
+
+ + Windows: <https://cran.rstudio.com/bin/windows/base/>
+ + Mac: <https://cran.rstudio.com/bin/macosx/>
+ + Linux: <https://cran.rstudio.com/bin/linux/> (pick your distribution)
+
+If you are on  Windows, you should also install the [Rtools4 package](https://cran.rstudio.com/bin/windows/Rtools/); this will ensure you get fewer warnings later when installing packages.
+
+More detailed instructions for  Windows are available [here](https://owi.usgs.gov/R/training-curriculum/installr/)
+
+Download and install the [latest version of RStudio](https://posit.co/download/rstudio-desktop/#download) for your operating system. RStudio is a integrated development environment (IDE) for R, created by Posit. It contains a set of tools designed to make writing R, python, javascript, and other data-related code easier.
+
+#### Python
+
+Download and install the latest version of [python 3](https://www.python.org/downloads/)
+
++ Windows: check the box that asks if you want to add Python to the system path. This will save you a lot of time and frustration. If you didn’t do this, you can follow [these instructions](https://datatofish.com/add-python-to-windows-path/) to fix the issue (you’ll need to restart your machine).
++ If you’re interested in python, you should install Jupyter using the instructions here (I would just do pip3 install jupyterlab).
++ [Additional instructions for installing Python 3](https://www.py4e.com/lessons/install) from Python for Everybody if you have trouble.
+
+### Computing Resources
+
++ [Statistical Computing using R and Python](https://srvanderplas.github.io/stat-computing-r-python/) by Susan VanderPlas
++ [R4DS](https://r4ds.hadley.nz/)
+
+### DataFest Workshops
+
+We hope to work with the Statistics and Data Science clubs to organize workshops focused on data management and visualization, getting started with the data, and giving effective presentations to prepare you for the weekend event.
+
+These will be held during UU hour during winter quarter. Check back for updates.

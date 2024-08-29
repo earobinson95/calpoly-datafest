@@ -10,8 +10,26 @@ title: ""
 knitr::include_graphics("calpoly-datafest-logo.PNG")
 ```
 
-Are you or someone you know interested in serving as a mentor or judge for ASA DataFest 2025 at Cal Poly? Fill out the following form to be contacted: xxx.
+### What is a DataFest Mentor?
 
-# What is a DataFest Mentor?
+During the event, we have faculty, graduate students, and industry experts walk around to talk with the teams about their progress. You do not need to be an expert in the topic or in statistics, but your responsibility is to prompt the team with questions to get them to think critically about the data. 
 
-# Serving as a DataFest Judge
+What question are they trying to answer? What action are they recommending is taken? Who is their audience? Are their graphs and results interpretable in context?
+
+We will have windows of time blocks from Friday evening through Sunday morning for mentoring sign up.
+
+### Serving as a DataFest Judge
+
+We would not be able to run DataFest without a panel of judges! DataFest is a 48-hour data marathon where students collaborate on teams to investigate a complex data set. The event culminates with 5-minute (3-slide) team presentations in which a panel of about four judges award three prize categories – Best in Show, Best Visualization, and Best Use of Outside Data.
+
+The presentation and judging takes place on Sunday afternoon. Our goal is to bring in judges with a variety of backgrounds, and we would love to connect if you are interested!
+
+Please note we have funding for a one night hotel stay if you are traveling from the Bay or LA area.
+
+### Interested?
+
+Are you or someone you know interested in serving as a mentor or judge for ASA DataFest 2025 (April xx) at Cal Poly? Fill out the following form to be contacted:
+
+<iframe width="640px" height="480px" src="https://forms.office.com/r/k4K07PRUJz?embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+
+

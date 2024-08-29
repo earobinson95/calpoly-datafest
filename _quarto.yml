@@ -11,7 +11,7 @@ website:
       - href: faq.qmd
         text: FAQ
       - href: prep.qmd
-        text: Software
+        text: Preparation
       - href: judges.qmd
         text: Mentors/Judges
       - href: past-events.qmd
