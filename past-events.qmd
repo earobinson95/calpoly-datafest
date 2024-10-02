@@ -24,6 +24,16 @@ knitr::include_graphics("calpoly-datafest-logo.PNG")
 
 `r fa("table")` 1 Data Set
 
+::: callout
+### Thank you to our sponsors!
+
++ [Noyce School of Applied Computing](https://noyce.calpoly.edu/)
++ [Cal Poly IRA](https://academicprograms.calpoly.edu/content/IRA/index)
++ [Cal Poly Statistics](https://statistics.calpoly.edu/)
++ [CourseKata](https://coursekata.org/) for the Data!
+
+:::
+
 A total of 39 undergraduate students participated in a weekend of visualizing, summarizing, and analyzing data about an online statistics textbook. Students participated from across three colleges including: mostly Statistics & Data Science major in the Bailey College of Science and Technology, a handful of Computer Science majors in the College of Engineering, and a couple of students completing the Quantitative Concentration from the Orfalea College of Business.
 
 ```{r}
@@ -63,5 +73,3 @@ knitr::include_graphics("images/2024/datafest-18.jpg")
 knitr::include_graphics("images/2024/datafest-21.jpg")
 knitr::include_graphics("images/2024/datafest-27.jpg")
 ```
-
-## 2020

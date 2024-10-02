@@ -32,10 +32,10 @@ Learn more at <https://ww2.amstat.org/education/datafest/>.
 
 | Item                          | Date                |
 |-------------------------------|---------------------|
-| [Student Interest Survey](https://forms.office.com/r/ru8MWjZfYL)       | Due March xx        |
-| DataFest Social Mixer         | March xx at x:xx in xxx |
-| [Official Student Team Sign-up](https://forms.office.com/r/Ktm0byzLqT) | Due March xx        |
-| DataFest 2025 Weekend!        | April xx - April xx |
+| [Student Interest Survey](https://forms.office.com/r/ru8MWjZfYL)       | Due March TBD        |
+| DataFest Social Mixer         | March TBD at x:xx in TBD |
+| [Official Student Team Sign-up](https://forms.office.com/r/Ktm0byzLqT) | Due March TBD        |
+| DataFest 2025 Weekend!        | April 4 - 6, 2025 |
 
 # `r fa("envelope")` Contact
 
