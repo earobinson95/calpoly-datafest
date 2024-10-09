@@ -43,7 +43,7 @@ A total of 39 undergraduate students participated in a weekend of visualizing, s
 #| fig-align: center
 #| fig-cap: 
 #|   - "Best in Show: (left) Cameron Stivers, Anagha Sikha, Kirina Sirohi, and Rachel Roggenkemper"
-#|   - "Best Visualization: (left) Alea Seifert, Jett Palmer, Kaatja Matthews-vanKoetsveld, and Alie Hall"
+#|   - "Best Visualization: (left) Alea Seifert, Jett Palmer, Kaatje Matthews-vanKoetsveld, and Alie Hall"
 #|   - "Best Use of Outside Data: (left) Charlie Ray, Seth Johnson, Billie Block, and Deven Singh"
 
 knitr::include_graphics("images/2024/best-in-show.jpg")
