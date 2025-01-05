@@ -30,12 +30,13 @@ Learn more at <https://ww2.amstat.org/education/datafest/>.
 
 # `r fa("calendar")` Important Dates \@ Cal Poly
 
-| Item                          | Date                |
-|-------------------------------|---------------------|
-| [Student Interest Survey](https://forms.office.com/r/ru8MWjZfYL)       | Due March TBD        |
-| DataFest Social Mixer         | March TBD at x:xx in TBD |
-| [Official Student Team Sign-up](https://forms.office.com/r/Ktm0byzLqT) | Due March TBD        |
-| DataFest 2025 Weekend!        | April 4 - 6, 2025 |
+| Item                               | Date                                      |
+|------------------------------------|-------------------------------------------|
+| Informational Meeting & Panel      | Thursday, Feb. 6, 2025 at 11:10am in Fisher Science 33-286 (Pizza served!)  |
+| [Student Interest Survey](https://forms.office.com/r/ru8MWjZfYL) | Due Feb. 27, 2025            |
+| DataFest Social Mixer              | Tuesday, Mar. 4, 2025 at 11:10am in 052 - Science Patio (Doughnuts and company!) |
+| [Official Student Team Sign-up](https://forms.office.com/r/Ktm0byzLqT) | Due Mar. 13th      |
+| DataFest 2025 Weekend!             | Apr. 4 - 6, 2025 |
 
 # `r fa("envelope")` Contact
 
