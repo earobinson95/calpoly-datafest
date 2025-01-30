@@ -20,7 +20,7 @@ knitr::include_graphics("calpoly-datafest-logo.PNG")
 
 DataFest is a national event organized by the American Statistical Association as a celebration of data in which teams of undergraduates work around the clock to find and share meaning in a large, rich, and complex data set. The ASA provides a data set to participating institutions in which local DataFests are held across the country during March and April each year.
 
-`r fa("users")` **Intense Collaboration:** Teams of 2-5 undergraduates engage in a 48-hour data analysis marathon, working to decipher a complex data set and craft insightful solutions.
+`r fa("users")` **Intense Collaboration:** Teams of 3-4 undergraduates engage in a 48-hour data analysis marathon, working to decipher a complex data set and craft insightful solutions.
 
 `r fa("lightbulb")` **Innovation and Camaraderie:** Participants are fueled by a spirit of innovation and teamwork, pushing the boundaries of data exploration while fostering a supportive and collaborative environment.
 
