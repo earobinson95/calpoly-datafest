@@ -4,6 +4,12 @@ project:
 
 website:
   title: "ASA DataFest @ Cal Poly - SLO"
+  # announcement: 
+  #   icon: info-circle
+  #   dismissable: true
+  #   content: "**Alert** - this is some information that you should pay attention to"
+  #   type: primary
+  #   position: below-navbar
   navbar:
     left:
       - href: index.qmd
@@ -16,7 +22,6 @@ website:
         text: Mentors/Judges
       - href: past-events.qmd
         text: Past Events
-
 format:
   html:
     theme: cosmo

@@ -16,6 +16,60 @@ library(fontawesome)
 knitr::include_graphics("calpoly-datafest-logo.PNG")
 ```
 
+## 2025
+
+`r fa("users")` 19 Teams
+
+`r fa("graduation-cap")` 3 Colleges at Cal Poly + 2 Teams from CSU-Monterey Bay
+
+`r fa("table")` 1 Data Set
+
+::: callout
+### Thank you to our sponsors!
+
++ [Noyce School of Applied Computing](https://noyce.calpoly.edu/)
++ [Cal Poly IRA](https://academicprograms.calpoly.edu/content/IRA/index)
++ [Cal Poly Statistics](https://statistics.calpoly.edu/)
+:::
+
+A total of 76 undergraduate students participated in a weekend of visualizing, summarizing, and analyzing data. Students participated from across three colleges including: mostly Statistics & Data Science major in the Bailey College of Science and Technology, a couple of handfuls of Computer Science and Software Engineering majors in the College of Engineering, and a student from Public Health in the School of Liberal Arts. We also welcomed two amazing teams from CSU-Monterey Bay down for the weekend.
+
+```{r}
+#| layout-ncol: 3
+#| echo: false
+#| out-width: 100%
+#| fig-align: center
+#| fig-cap: 
+#|   - "Best in Show: (left) Tara Rajagopalan, Barbara Ibrahim, Charlotte Kuebitz, Kaviya Veerasingam"
+#|   - "Best Visualization: (left) Ruben Jimenez, Nick Patrick, Alex Yaun, Andrew Martinez (not pictured)"
+#|   - "Best Use of Outside Data: (left) Jett Palmer, Kaatje Matthews-vanKoetsveld, Libby Brill, Alea Seifert, Alie Hall"
+
+knitr::include_graphics("images/2025/best-in-show.jpg")
+knitr::include_graphics("images/2025/best_visualization.jpg")
+knitr::include_graphics("images/2025/best-use-of-outside-data.jpg")
+```
+
+```{r}
+#| echo: false
+#| out-width: 100%
+#| fig-align: center
+
+knitr::include_graphics("images/2025/group-photo.jpg")
+```
+
+```{r}
+#| layout-ncol: 5
+#| echo: false
+#| out-width: 100%
+#| fig-align: center
+
+knitr::include_graphics("images/2025/datafest-work-1.jpg")
+knitr::include_graphics("images/2025/datafest-work-2.jpg")
+knitr::include_graphics("images/2025/datafest-work-3.jpg")
+knitr::include_graphics("images/2025/datafest-work-4.jpg")
+knitr::include_graphics("images/2025/datafest-work-5.jpg")
+```
+
 ## 2024
 
 `r fa("users")` 10 Teams
