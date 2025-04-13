@@ -69,6 +69,7 @@ knitr::include_graphics("images/2025/datafest-work-3.jpg")
 knitr::include_graphics("images/2025/datafest-work-4.jpg")
 knitr::include_graphics("images/2025/datafest-work-5.jpg")
 ```
+`r fontawesome::fa("camera")` Photos by Alexis Kovacevic
 
 ## 2024
 
