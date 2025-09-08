@@ -32,11 +32,11 @@ Learn more at <https://ww2.amstat.org/education/datafest/>.
 
 | Item                               | Date                                      |
 |------------------------------------|-------------------------------------------|
-| Informational Meeting & Panel      | Thursday, Feb. 6, 2025 at 11:10am in Fisher Science 33-286 (Pizza served!)  |
-| [Student Interest Survey](https://forms.office.com/r/ru8MWjZfYL) | Due Feb. 27, 2025            |
-| DataFest Social Mixer              | Tuesday, Mar. 4, 2025 at 11:10am in 052 - Science Patio (Doughnuts and company!) |
-| [Official Student Team Sign-up](https://forms.office.com/r/Ktm0byzLqT) | Due Mar. 13th      |
-| DataFest 2025 Weekend!             | Apr. 4 - 6, 2025 |
+| Informational Meeting & Panel      | TBD  |
+| [Student Interest Survey](https://forms.office.com/r/ru8MWjZfYL) | Due TBD            |
+| DataFest Social Mixer              | TBD |
+| [Official Student Team Sign-up](https://forms.office.com/r/Ktm0byzLqT) | TBD      |
+| DataFest 2025 Weekend!             | Apr. xxx - xxx, 2026 |
 
 # `r fa("envelope")` Contact
 

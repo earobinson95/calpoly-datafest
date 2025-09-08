@@ -54,5 +54,5 @@ While there is a judging and award portion of this event, we encourage a fun and
 
 ### `r fa("question")` Are you accepting teams from other institutions?
 
-We do not currently have a mechanism in place to host other teams at Cal Poly for DataFest. Our pipe dream is in the next few years to expand to a Central Coast DataFest. If your institution is interested in working with us to make this happen, please contact us at statisticsdepartment@calpoly.edu.
+We would love to discuss with you! We pilot tested bringing teams from CSU Monterey Bay last year and our pipe dream is in the next few years to expand to a Central Coast DataFest. If your institution is interested in working with us to make this happen, please contact us at statisticsdepartment@calpoly.edu.
 
