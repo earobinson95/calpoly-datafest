@@ -43,6 +43,9 @@ Download and install the latest version of [python 3](https://www.python.org/dow
 
 ### DataFest Workshops
 
-We hope to work with the Statistics and Data Science clubs to organize workshops focused on data management and visualization, getting started with the data, and giving effective presentations to prepare you for the weekend event.
+| Item | Date |
+|---------------------------------|---------------------------------------|
+| Workshop 1 (co-hosted by Stat Club) | Thursday, March 5th UU hour (11:10-12pm) in 10-124 |
+| Workshop 2 (co-hosted by Stat Club) | Thursday, March 12th UU hour (11:10-12pm) in 10-124 |
 
-These will be held during UU hour during winter quarter. Check back for updates.
+Details pending.
