@@ -34,8 +34,8 @@ Learn more at <https://ww2.amstat.org/education/datafest/>.
 |---------------------------------|---------------------------------------|
 | Informational Meeting & Panel | Thursday, February 12th UU hour (11:10-12pm) in 10-125 |
 | DataFest Social Mixer (doughnuts!) | Thursday, February 26th UU hour (11:10-12pm) on 52-Science Patio |
-| Workshop 1 (co-hosted by Stat Club) | Thursday, March 5th UU hour (11:10-12pm) in 10-125 |
-| Workshop 2 (co-hosted by Stat Club) | Thursday, March 12th UU hour (11:10-12pm) in 10-125 |
+| Workshop 1 (co-hosted by Stat Club) | Thursday, March 5th UU hour (11:10-12pm) in 10-126 |
+| Workshop 2 (co-hosted by Stat Club) | Thursday, March 12th UU hour (11:10-12pm) in 10-126 |
 | [**Official Student Team Sign-up**](https://forms.office.com/r/Ktm0byzLqT) | **Due Friday, March 20th at 11:59pm** |
 | **DataFest 2026 Weekend!** | **Apr. 17 - 19, 2026** |
 
