@@ -33,7 +33,7 @@ Learn more at <https://ww2.amstat.org/education/datafest/>.
 | Item | Date |
 |---------------------------------|---------------------------------------|
 | Informational Meeting & Panel | Thursday, February 12th UU hour (11:10-12pm) in 10-125 |
-| DataFest Social Mixer (doughnuts!) | Thursday, February 26th UU hour (11:10-12pm) on 52-Science Patio |
+| DataFest Social Mixer (doughnuts!) | Thursday, February 26th UU hour (11:10-12pm) on 25-Back Patio |
 | Workshop 1: Python Led by CSC 313 (co-hosted by Stat Club) | Thursday, March 5th UU hour (11:10-12pm) in 10-125 |
 | Workshop 2: R/Getting Started with Data (co-hosted by Stat Club) | Thursday, March 12th UU hour (11:10-12pm) in 10-125 |
 | [**Official Student Team Sign-up**](https://forms.office.com/r/Ktm0byzLqT) | **Due Friday, March 20th at 11:59pm** |
