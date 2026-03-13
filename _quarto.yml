@@ -1,5 +1,12 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+    - "!workshops/*.qmd"   # do not render this file
+  resources:
+    - docs/**
+    - workshops/r_quartofile.qmd      # copy it to the site if you want it downloadable
+    - workshops/*.pdf
   output-dir: docs
 
 website:

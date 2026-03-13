@@ -1,0 +1,364 @@
+---
+title: "DataFest R Workshop"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
+
+```{r}
+#| warning: false
+
+library(tidyverse)
+library(readxl)
+library(here)
+```
+
+## GitHub
+
+### Loading in your data
+
+-   When data are too large to push, use identical file paths, include data in `.gitignore`
+
+```{r}
+#| eval: false
+
+# We like the here::here() function to specify file paths
+  # here() starts your file path in the same directory as your R project
+  # `mtcars` is your datafile
+  # Everyone should have the same directory set-up (i.e., data, scripts, analysis)
+
+
+# Our example dataset mtcars is built into R so use data(mtcars)
+mtcars <- read_csv(here("data", "mtcars.csv"))
+mtcars <- read_excel(here("data", "mtcars.csv"))
+```
+
+-   Store data cleaning steps in an R script and use `source()` to call it
+
+```{r}
+source("data_cleaning.R")
+```
+
+-   Avoid merge conflicts by creating separate files for each group member
+
+## Exploration
+
+#### Contextualize
+
+-   Orient yourself to the **project domain**
+
+-   Learn about **variables** using the codebook, [data description](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/mtcars), and other documentation
+
+```{r}
+summary(mtcars)
+```
+
+```{r}
+# Place this in data_cleaning.R:
+mtcars <- mtcars |>
+  mutate(across(c(cyl, vs, am, gear, carb), \(x) factor(x)))
+
+summary(mtcars)
+```
+
+#### Identify
+
+-   Discover **missing data**. Why is it missing and what is the resolution?
+    -   Note: missing data may not be encoded as `NULL`/`NA` (e.g., "none", "missing", "-", etc.)
+
+```{r}
+# Here's one way:
+colSums(is.na(mtcars))
+```
+
+-   Discover **outliers**. Are they real? What do they mean? What is the resolution?
+
+```{r}
+mtcars |>
+  ggplot(aes(y = mpg)) +
+  geom_boxplot()
+```
+
+#### Observe
+
+-   Create **simple graphics** to explore relationships and distributions on a high-level.
+
+-   What **interesting patterns** do you find?
+
+```{r}
+mtcars |>
+  ggplot(aes(x = hp, y = mpg)) +
+  geom_point()
+```
+
+```{r}
+mtcars |>
+  ggplot(aes(x = cyl)) +
+  geom_bar()
+
+mtcars |>
+  ggplot(aes(x = gear)) +
+  geom_bar()
+```
+
+```{r}
+mtcars |>
+  select(disp, wt, qsec, mpg) |>
+  plot()
+```
+
+## Next Steps
+
+#### Narrow the Scope
+
+-   It's okay (and even recommended) to not use all the variables in your analysis. If you are overwhelmed, try to **filter or subset**.
+
+```{r}
+# Narrow our scope to just automatic cars:
+mtcars |>
+  filter(am == 0) |>
+  head()
+```
+
+#### Feature Engineering
+
+-   What variables will you choose to **focus** on?
+
+-   What variables can you **create** (e.g., ratios, aggregate metrics, scores)?
+
+```{r}
+# To select (or deselect) only specific columns use select():
+mtcars |>
+  select(mpg, hp, gear) |>
+  head()
+```
+
+```{r}
+mtcars |>
+  select(-mpg, -hp, -gear) |>
+  head()
+```
+
+```{r}
+# To create new variables use mutate():
+mtcars |>
+  mutate(
+    ratio = mpg/hp,
+    high_drat = if_else(drat > mean(drat), 1, 0)
+  ) |>
+  select(mpg, hp, ratio, drat, high_drat) |>
+  head()
+```
+
+```{r}
+# To get summary statistics use summarize() or summarise():
+mtcars |>
+  group_by(cyl) |>
+  summarize(
+    number_obs = n(),
+    mean_mpg = mean(mpg),
+    var_mpg = var(mpg),
+    max_mpg = max(mpg),
+    min_mpg = min(mpg)
+  )
+```
+
+```{r}
+# To order the output, use arrange():
+mtcars |>
+  group_by(cyl) |>
+  summarize(
+    number_obs = n(),
+    mean_mpg = mean(mpg),
+    var_mpg = var(mpg),
+    max_mpg = max(mpg),
+    min_mpg = min(mpg)
+  ) |>
+  arrange(desc(mean_mpg))
+```
+
+```{r}
+# To locate certain rows use slice_min(), slice_max(), slice_head(), slice_tail():
+mtcars |>
+  group_by(cyl) |>
+  summarize(
+    number_obs = n(),
+    mean_mpg = mean(mpg),
+    var_mpg = var(mpg),
+    max_mpg = max(mpg),
+    min_mpg = min(mpg)
+  ) |>
+  slice_max(order_by = mean_mpg, n = 2)
+```
+
+-   Some helpful resources:
+
+    -   [dplyr Cheat Sheet](https://rstudio.github.io/cheatsheets/html/data-transformation.html)
+
+    -   [stringr Cheat Sheet](https://rstudio.github.io/cheatsheets/html/strings.html) (for working with strings)
+
+    -   [lubridate Cheat Sheet](https://rstudio.github.io/cheatsheets/html/lubridate.html) (for working with dates)
+
+#### External Sources
+
+-   Import external data to **fill gaps** in your data or bolster your story with **another angle**.
+
+```{r}
+# Let's use another built-in dataset
+data(cars)
+# If you have another external source, read it in using here() like we did before
+
+cars |>
+ggplot(aes(x = speed, y = dist)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+
+# Found earlier that as horsepower of cars increase, gas mileage decreases. Additionally, as speed of cars increases, stopping distance also decreases. We observe that higher horsepower and increasings speeds decrease efficiency of gas mileage, and stopping distance, respectively. (Main idea: Efficiency)
+```
+
+## Presentation
+
+#### Graphic Tips
+
+-   Highlight what is important
+
+    -   Color/bold important features
+
+-   Make sure text is readable (axis titles, legends, etc.)
+
+    -   Save graphs over screenshot
+
+-   Limit to only 1-2 graphics, so focus on informative graphs
+
+```{r}
+mtcars |>
+  ggplot(aes(x = hp, y = mpg, color = am)) +
+  geom_point()
+```
+
+```{r}
+mtcars |>
+
+  # Re-order factors so manual cars are above automic cars in the legend to line up with the data
+  
+  mutate(am = fct_relevel(am, c("1", "0"))) |>
+  ggplot(aes(
+    x = hp,
+    y = mpg,
+    color = am,
+    shape = am,
+    linetype = am
+  )) +
+  
+  # Make the points larger with size
+  # If you have lots of data, increase transparency
+  
+  geom_point(size = 2, alpha = 1) + 
+  
+  # Add a linear model for both groups
+  
+  geom_smooth(method = "lm", se = FALSE) +
+  
+  # Color the different groups 
+  
+  scale_color_manual(
+    labels = c("Manual", "Automatic"),
+    values = c("orange3", "steelblue")
+  ) +
+  
+  # Double encode with shape of points
+  
+  scale_shape_manual(
+    labels = c("Manual", "Automatic"),
+    values = c(16, 17)
+  ) +
+  
+  # Double encode with line type
+  
+  scale_linetype_manual(
+    name = "Transmission",
+    labels = c("Manual", "Automatic"),
+    values = c("dashed", "solid")
+  ) +
+  
+  # Label axis, title, and legend
+  # Add units if applicable 
+  
+  labs(
+    title = "Relationship Between Horsepower and Gas Mileage by Transmission",
+    subtitle = "Gas Mileage (measured in miles per gallon)",
+    x = "Horsepower",
+    y = "",
+    color = "Transmission",
+    shape = "Transmission"
+  ) +
+  
+  # Different R themes can change background color, gridlines, borders, etc.
+  
+  theme_bw() +
+  
+  # Manually alter gridlines, text size, legend, etc.
+  
+  theme(
+    panel.grid.minor = element_blank(),
+    legend.key.width = unit(1.25, "cm"),
+    axis.text = element_text(size = 11),
+    plot.title = element_text(size = 15),
+    axis.title.x = element_text(size = 12)
+    )
+```
+
+-   Some helpful graphical resources:
+
+    -   [R Graph Gallery](https://r-graph-gallery.com/)
+
+    -   [ggplot2 Cheat Sheet](https://rstudio.github.io/cheatsheets/html/data-visualization.html)
+
+#### Story Telling
+
+-   Be curious during exploratory analysis and “look for a lead”
+
+-   Focus on 1-2 interesting ideas and connect them deeply to the domain area
+
+-   Consider how your findings might impact stakeholders
+
+#### Curate Content
+
+-   Less about the journey and more about the key takeaways
+
+-   It is okay if you don’t discuss everything you have done
+
+    -   Previous analysis, assumptions, EDA, etc.
+
+#### Practice
+
+-   Decide who is presenting each topic
+
+-   Use an extemporaneous style
+
+-   Ensure everyone understands the key features of the presentation
+
+## General
+
+-   Being willing to let ideas go
+
+-   Don’t put all your eggs in one basket
+
+-   Working with team
+
+    -   Take breaks!
+
+-   Use your imagination, be curious
+
+-   Take advantage of mentors and professors
+
+#### Awards
+
+-   Goal of the weekend is gain experience and have fun!
+
+    -   **Best in Show**: Best insights, meaningful story, organized presentation, strong graphics
+
+    -   **Best Visualization:** Clean, readable, and interesting graph that tells a story on its own
+
+    -   **Best Use of Outside Data**: Tie in "parallel" data to expand/deepen the story, different approach to data
