@@ -16,13 +16,41 @@ library(fontawesome)
 knitr::include_graphics("calpoly-datafest-logo.PNG")
 ```
 
+## 2026 
+
+:::: columns
+::: {.column width=70%}
+Read about our upcoming event on April 17-19th at [DataFest Returns: ‘An amazing experience for students’](https://cosam.calpoly.edu/news/2026/third-annual-datafest-event) by Nick Wilson!
+:::
+::: {.column width=30%}
+```{r} 
+#| fig-align: center
+#| out-width: 63%
+#| echo: false
+knitr::include_graphics("images/logos/2026-hex.png")
+```
+:::
+::::
+
 ## 2025
 
+:::: columns
+::: {.column width=70%}
 `r fa("users")` 19 Teams
 
 `r fa("graduation-cap")` 3 Colleges at Cal Poly + 2 Teams from CSU-Monterey Bay
 
 `r fa("table")` 1 Data Set
+:::
+::: {.column width=30%}
+```{r} 
+#| fig-align: center
+#| out-width: 100%
+#| echo: false
+knitr::include_graphics("images/logos/2025-hex.png")
+```
+:::
+::::
 
 ::: callout
 ### Thank you to our sponsors!
@@ -74,12 +102,23 @@ knitr::include_graphics("images/2025/datafest-work-5.jpg")
 `r fontawesome::fa("camera")` Photos by Alexis Kovacevic
 
 ## 2024
-
+:::: columns
+::: {.column width=70%}
 `r fa("users")` 10 Teams
 
 `r fa("graduation-cap")` 3 Colleges at Cal Poly
 
 `r fa("table")` 1 Data Set
+:::
+::: {.column width=30%}
+```{r} 
+#| fig-align: center
+#| out-width: 90%
+#| echo: false
+knitr::include_graphics("images/logos/2024-hex.png")
+```
+:::
+::::
 
 ::: callout
 ### Thank you to our sponsors!
