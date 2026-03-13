@@ -43,9 +43,15 @@ Download and install the latest version of [python 3](https://www.python.org/dow
 
 ### DataFest Workshops
 
-| Item | Date |
-|---------------------------------|---------------------------------------|
-| Workshop 1 (co-hosted by Stat Club) | Thursday, March 5th UU hour (11:10-12pm) in 10-124 |
-| Workshop 2 (co-hosted by Stat Club) | Thursday, March 12th UU hour (11:10-12pm) in 10-124 |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+| **Event**                                                                                                                                                                                                                 | **Date**                                                      |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+| Workshop 1: Python Led by CSC 313 (co-hosted by Stat Club)                                                                                                                                                                | Thursday, March 5th UU hour (11:10-12pm) in 10-125            |
+|                                                                                                                                                                                                                           |                                                               |
+| *Materials: [slides](workshops/python-csc313-slides.pdf); [cheatsheet](workshops/python-cheatsheet.pdf); [GoogleColab](https://colab.research.google.com/drive/1glzqtZdKtlQ1SR1PzQctD2uLWfxeR5to?usp=sharing)*            |                                                               |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------+
+| Workshop 2: R/Getting Started with Data (co-hosted by Stat Club)                                                                                                                                                          | Thursday, March 12th UU hour (11:10-12pm) in 10-125           |
+|                                                                                                                                                                                                                           |                                                               |
+| *Materials: [slides](https://docs.google.com/presentation/d/1f6hNYu8WIRUjNfL15WR1T2cCAmmKIypoScvBzBttyQg/edit?usp=sharing); [.qmd file](workshops/r_quartofile.qmd); [Posit Cloud](https://posit.cloud/content/12064067)* |                                                               |
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------+
 
-Details pending.
